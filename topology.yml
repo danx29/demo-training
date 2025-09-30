@@ -16,8 +16,9 @@ hosts:
 routers:
   - name: router
     base_box:
-      image: debian-12-x86_64
-      man_user: debian
+      image: ubuntu-noble-x86_64    
+      #image: debian-12-x86_64
+      man_user: ubuntu
     flavor: 1C-2GB-20GB
 
 networks:
